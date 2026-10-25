@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "max_err_rmsnorm": 1.9073486328125e-06,
+  "max_err_int8_quant": 1,
+  "max_err_swiglu": 1.9073486328125e-06,
+  "chip_configs": {
+    "nvidia_hopper": {
+      "BLOCK_N": 4096,
+      "num_warps": 8,
+      "num_stages": 2,
+      "simd_width": 32,
+      "sram_kb": 228
+    },
+    "iluvatar_hygon": {
+      "BLOCK_N": 4096,
+      "num_warps": 4,
+      "num_stages": 2,
+      "simd_width": 64,
+      "sram_kb": 128
+    },
+    "moore_threads_musa": {
+      "BLOCK_N": 4096,
+      "num_warps": 8,
+      "num_stages": 2,
+      "simd_width": 32,
+      "sram_kb": 128
+    }
+  },
+  "sglang_track1_speedup": 2.59,
+  "minicpm_track2_decode_speedup": 3.95
+}
