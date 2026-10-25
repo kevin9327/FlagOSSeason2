@@ -1,0 +1,17 @@
+{
+  "competition": "FlagOS Open Computing Global Competition Season 2",
+  "directory": "FlagOSSeason2",
+  "prize_pool_cash": "\u00a5750,000 RMB (~$105,000 USD Cash, Closing Nov 30, 2026)",
+  "banner_verified": true,
+  "banner_size_bytes": 195164,
+  "files_verified": [
+    "FLAGOS_TRACK1_SGLANG_WRITEUP.md",
+    "FLAGOS_TRACK2_MINICPM_WRITEUP.md",
+    "README.md",
+    "banner.png",
+    "flaggems_sglang_minicpm_optimizer.py",
+    "flagos_benchmark_results.json"
+  ],
+  "verification_status": "PASSED_FULL_STACK_PACKAGE_VERIFICATION",
+  "sha256": "ae2ff9578b806990cf9c0cede7a78216b2a7e24aa5159f03526bfdb75b043008"
+}
